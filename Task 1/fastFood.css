@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Arial;
+  margin: 0px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(255, 241, 249);
+}
+
+.logo {
+  flex: 5%;
+  padding: 0px;
+  background-color: rgb(255, 241, 249);
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex: 30%;
+  padding: 0px;
+  background-color: rgb(255, 241, 249);
+  /* text-align: center; */
+  /* align-content: center; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-link {
+  color: rgb(111, 111, 111);
+  text-decoration: none;
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  align-content: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(255, 241, 249);
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-style: double;
+}
+
+.more {
+  display: flex;
+  flex: 10%;
+  padding: 0px;
+  text-align: center;
+  background-color: rgb(255, 241, 249);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button1,
+.button2 {
+  border-radius: 50%;
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* .button1:hover,
+.button2:hover {
+  font-size: 15px;
+} */
+
+.hero {
+  display: flex;
+  padding: 5px;
+  background-color: rgb(255, 241, 249);
+}
+
+.left {
+  flex: 50%;
+  margin: 10px;
+  padding: 50px 100px;
+  background-color: rgb(255, 241, 249);
+  color: rgb(0, 0, 0);
+}
+
+.shape {
+  margin-left: -115px;
+  padding: 0px 0px;
+}
+
+.right {
+  flex: 80%;
+  margin: 10px;
+  padding: 50px 10px;
+  background-color: rgb(255, 241, 249);
+}
+
+.service {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.howitworks {
+  color: orange;
+}
+
+.whatweserve {
+  color: black;
+}
+
+.paragragh {
+  color: gray;
+}
+
+.waysoforder {
+  display: flex;
+  padding: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+.throughTheApp {
+  display: flex;
+  flex: 33%;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.Delivery {
+  display: flex;
+  flex: 33%;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.bestQuality {
+  display: flex;
+  flex: 33%;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.theMenu {
+  display: flex;
+  padding: 70px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.ourMenu {
+  color: orange;
+}
+
+.populer {
+  color: black;
+}
+
+.paragragh {
+  color: gray;
+}
+
+.meals {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.meal-1 {
+  display: flex;
+  flex: 15%;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top {
+  display: flex;
+  background-color: rgb(255, 241, 249);
+  margin: 0px;
+  width: 270px;
+  height: 310px;
+  line-height: 100px;
+  border-right: 4px solid rgb(216, 194, 194);
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  width: 270px;
+  text-align: center;
+  line-height: 25px;
+  border-right: 4px solid rgb(216, 194, 194);
+  border-left: 3px solid rgb(216, 194, 194);
+}
+
+.bottom {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  width: 270px;
+  text-align: center;
+  line-height: 10px;
+  border-right: 4px solid rgb(216, 194, 194);
+  border-bottom: 4px solid rgb(216, 194, 194);
+  border-left: 3px solid rgb(216, 194, 194);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meal-2 {
+  display: flex;
+  flex: 15%;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.meal-3 {
+  display: flex;
+  flex: 15%;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.meal-4 {
+  display: flex;
+  flex: 15%;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.forMoreMenu {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.button2 {
+  font-size: larger;
+}
+
+.forSignUp {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer1 {
+  display: flex;
+  background-color: rgb(255, 241, 249);
+  padding: 50px;
+}
+
+.div1 {
+  flex: 15%;
+  background-color: rgb(255, 241, 249);
+  margin: 10px;
+  padding: 10px;
+}
+
+.pages {
+  display: flex;
+  width: 150px;
+  background-color: rgb(255, 241, 249);
+  justify-content: space-between;
+}
+
+.pages:hover {
+  cursor: pointer;
+}
+
+.div2,
+.div2,
+.div3 {
+  flex: 15%;
+  display: flex;
+  background-color: rgb(255, 241, 249);
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer2 {
+  display: flex;
+  padding: 30px;
+  background-color: rgb(255, 241, 249);
+  align-items: center;
+  flex-direction: column;
+}
