@@ -286,6 +286,93 @@ body {
   font-size: larger;
 }
 
+.testimonial {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.photo {
+  display: flex;
+  flex: 35%;
+  padding: 100px;
+  margin-left: 40px;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.evaluation {
+  display: flex;
+  flex: 60%;
+  padding: 0px;
+  margin-right: -10px;
+  height: fit-content;
+  background-color: blue;
+  flex-direction: column;
+}
+
+.text {
+  background-color: rgb(255, 255, 255);
+  padding: 7%;
+}
+
+.text > div {
+  margin-left: -30px;
+}
+
+.evalu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0%;
+  padding-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.evalu > div {
+  width: 380px;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: gainsboro;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  background-color: gainsboro;
+  padding: 0%;
+  width: 250px;
+  border-radius: 50px;
+  padding-left: 0px;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  background-color: gainsboro;
+  padding: 0%;
+  width: 380px;
+  border-radius: 50px;
+  padding-left: 0px;
+  padding: 20px;
+}
+
+.name&rate > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.rate {
+  display: flex;
+  flex-direction: row;
+}
+
 .forSignUp {
   position: relative;
   text-align: center;
