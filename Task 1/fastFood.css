@@ -272,6 +272,7 @@ body {
   width: 270px;
   height: 310px;
   line-height: 100px;
+  border-radius: 30px 30px 0px 0px;
   border-right: 4px solid rgb(216, 194, 194);
   justify-content: center;
   align-items: center;
@@ -283,6 +284,7 @@ body {
   width: 270px;
   text-align: center;
   line-height: 25px;
+  padding: 5px;
   border-right: 4px solid rgb(216, 194, 194);
   border-left: 3px solid rgb(216, 194, 194);
 }
@@ -292,6 +294,7 @@ body {
   background-color: rgb(255, 255, 255);
   margin: 0px;
   width: 270px;
+  padding: 5px;
   text-align: center;
   line-height: 10px;
   border-right: 4px solid rgb(216, 194, 194);
@@ -299,6 +302,7 @@ body {
   border-left: 3px solid rgb(216, 194, 194);
   justify-content: space-between;
   align-items: center;
+  border-radius: 0px 0px 30px 30px;
 }
 
 .meal-1,
@@ -516,7 +520,13 @@ body {
   }
 
   .textOverImg {
-    font-size: 15px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .textOverImg {
+    font-size: 25px;
   }
 }
 
