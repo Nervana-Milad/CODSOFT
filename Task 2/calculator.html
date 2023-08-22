@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <form>
+          <div class="display">
+            <input class="dis-inp" type="text" name="dis" id="res" />
+          </div>
+          <div>
+            <input type="button" value="AC" class="clear" onclick="Clear()" />
+            <input
+              type="button"
+              value="DE"
+              onclick="delete_last_number()"
+              class="oprt"
+            />
+            <input
+              type="button"
+              value="/"
+              onclick="display_on_screen('/')"
+              class="oprt"
+            />
+          </div>
+          <div>
+            <input type="button" value="1" onclick="display_on_screen('1')" />
+            <input type="button" value="2" onclick="display_on_screen('2')" />
+            <input type="button" value="3" onclick="display_on_screen('3')" />
+            <input
+              type="button"
+              value="*"
+              onclick="display_on_screen('*')"
+              class="oprt"
+            />
+          </div>
+          <div>
+            <input type="button" value="4" onclick="display_on_screen('4')" />
+            <input type="button" value="5" onclick="display_on_screen('5')" />
+            <input type="button" value="6" onclick="display_on_screen('6')" />
+            <input
+              type="button"
+              value="+"
+              onclick="display_on_screen('+')"
+              class="oprt"
+            />
+          </div>
+          <div>
+            <input type="button" value="7" onclick="display_on_screen('7')" />
+            <input type="button" value="8" onclick="display_on_screen('8')" />
+            <input type="button" value="9" onclick="display_on_screen('9')" />
+            <input
+              type="button"
+              value="-"
+              onclick="display_on_screen('-')"
+              class="oprt"
+            />
+          </div>
+          <div>
+            <input type="button" value="0" onclick="display_on_screen('0')" />
+            <input type="button" value="." onclick="display_on_screen('.')" />
+            <input
+              type="button"
+              value="="
+              class="equality"
+              onclick="finalResult()"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
